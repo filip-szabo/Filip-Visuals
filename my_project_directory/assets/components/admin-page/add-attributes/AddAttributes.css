@@ -1,0 +1,87 @@
+.attributes-background {
+    background-image: url("./../../../images/background-admin.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.create-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: white;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.create-school{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-school-context label {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px 0;
+}
+.create-school-context input {
+    height: 60px;
+    width: 95%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.add-school-city{
+    margin-bottom:20px;
+}

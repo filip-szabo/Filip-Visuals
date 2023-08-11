@@ -1,0 +1,87 @@
+.user-body {
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .9)), url("../../images/background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.user-page h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: lightblue;
+}
+.user-page h1 span{
+
+    color: lightblue;
+}
+
+h2 span {
+    color: #BA2D0B;
+}
+
+.container-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 700px);
+}
+
+.user-context {
+    width: 100%;
+    height: calc(100vh - 1000px);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 40vh;
+}
+
+.column h2{
+    font-size: 50px;
+    color: white;
+}
+
+.column p{
+    font-size: 20px;
+    color: white;
+}
+
+.column a{
+    text-decoration: none;
+    color: #BA2D0B;
+    font-size: 20px;
+}
+.column a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+
+}
+
+/*.column1{*/
+/*    background-color: #80C1A4;*/
+/*}*/
+
+/*.column2{*/
+/*    background-color: #80C1A4;*/
+/*}*/
+
+/*.column3{*/
+/*    background-color: #80C1A4;*/
+/*}*/
+
+

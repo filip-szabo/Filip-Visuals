@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.user-nav a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 25px;
+    padding:30px;
+}
+.user-nav a:hover {
+    text-decoration: underline;
+    color: lightblue;
+    transition: 0.5s;
+}

@@ -1,0 +1,38 @@
+.admin-background {
+    background-image: url("./../../images/background-admin.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.admin-tools {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-tools h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
+}
+
+.options{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options a{
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+}
+.options a:hover{
+    color: #aa076b;
+    transition: 0.4s;
+}

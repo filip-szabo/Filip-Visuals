@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgba(0,0,0,0.0);
+}
+.admin-nav a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 25px;
+    padding:30px;
+}
+nav h1{
+    color: cornflowerblue;
+}
+.admin-nav a:hover {
+    text-decoration: underline;
+    color: lightblue;
+    transition: 0.5s;
+}

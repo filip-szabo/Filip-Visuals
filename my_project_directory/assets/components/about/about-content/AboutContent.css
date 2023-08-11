@@ -1,0 +1,21 @@
+.about-us-content {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-content-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 50px;
+}
+h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+p{
+    text-align: center;
+}

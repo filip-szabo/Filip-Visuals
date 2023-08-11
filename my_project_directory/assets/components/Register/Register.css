@@ -1,0 +1,113 @@
+.register-background {
+    background-image: url("./../../images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.signup {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup .container {
+    width: 80vh;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px; }
+.signup .container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.signup .container .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0; }
+.signup .container .content .input-box {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px; }
+.signup .container .content .input-box:nth-child(2n) {
+    justify-content: end; }
+.signup .container .content .input-box label {
+    width: 95%;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0; }
+.signup .container .content .input-box input {
+    height: 40px;
+    width: 95%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px; }
+.signup .container .content .input-box input:is(:focus) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); }
+.signup .container .content .input-box .autocomplete-list {
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(100%);
+    list-style-type: none;
+    margin-top: -10px;
+    padding: 0;
+    background-color: white;
+    width: 95%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1; }
+.signup .container .content .input-box .listItem {
+    color: #48438F;
+    padding: 10px;
+    cursor: pointer; }
+.signup .container .content .input-box .listItem:hover {
+    background-color: lightsteelblue; }
+@media screen and (max-width: 700px) {
+    .signup .container .content {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        align-items: center; }
+    .signup .container .content .input-box {
+        width: 100%; }
+    .signup .container .content .input-box:nth-child(2n) {
+        justify-content: start; } }
+.signup .container .form-button {
+    margin: 15px 0; }
+.signup .container .form-button button {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.signup .container .content .schools-box {
+    color: white;
+border-color: white;
+
+}
+
+#demo-select-small-label{
+    color: white;
+    border-color: white;
+    border-radius: 40px;
+}
+

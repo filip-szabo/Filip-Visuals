@@ -1,0 +1,108 @@
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+@media screen and (max-width: 750px) {
+    .action-section {
+        height: 20vh; } }
+.action-section h1 {
+    font-size: 50px; }
+.action-section h1 span {
+    font-weight: bold;
+    color: #2F4F4F; }
+@media screen and (max-width: 1190px) {
+    .action-section h1 {
+        text-align: center;
+        font-size: 40px; } }
+@media screen and (max-width: 750px) {
+    .action-section h1 {
+        text-align: center;
+        font-size: 28px; } }
+@media screen and (max-width: 600px) {
+    .action-section h1 {
+        text-align: center;
+        font-size: 20px; } }
+.action-section .action-button {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 3px solid #5F9EA0;
+    border-radius: 20px; }
+.action-section .action-button a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none; }
+.action-section .action-button span {
+    font-size: 25px;
+    color: black; }
+.action-section .action-button:hover {
+    border: 3px solid #2F4F4F;
+    transition: 0.6s; }
+@media screen and (max-width: 1190px) {
+    .action-section .action-button {
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        background-color: transparent;
+        border: 3px solid #5F9EA0;
+        border-radius: 20px; }
+    .action-section .action-button a {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none; }
+    .action-section .action-button span {
+        font-size: 15px;
+        color: black; } }
+@media screen and (max-width: 750px) {
+    .action-section .action-button {
+        width: 100px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        background-color: transparent;
+        border: 3px solid #5F9EA0;
+        border-radius: 20px; }
+    .action-section .action-button a {
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        text-decoration: none; }
+    .action-section .action-button span {
+        font-size: 10px;
+        color: black; } }
+@media screen and (max-width: 600px) {
+    .action-section .action-button {
+        width: 180px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+        background-color: transparent;
+        border: 2px solid #5F9EA0;
+        border-radius: 20px; }
+    .action-section .action-button a {
+        color: black;
+        font-size: 16px;
+        text-decoration: none; }
+    .action-section .action-button span {
+        font-size: 16px;
+        color: black; }
+    .action-section .action-button:hover {
+        border: 3px solid #2F4F4F;
+        transition: 0.6s; } }

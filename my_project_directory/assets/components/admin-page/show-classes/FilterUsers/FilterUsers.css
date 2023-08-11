@@ -1,0 +1,38 @@
+.filter-clases {
+    padding-bottom: 100px;
+}
+.filter-clases form{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.filter-selector {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.filter-selector label{
+    padding-right: 10px;
+    font-size: 40px;
+}
+.filter-selector select{
+    width: 200px;
+    height: 50px;
+}
+.filter-selector select option{
+    font-size: 20px;
+}
+
+.filter-input{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.filter-input input{
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
